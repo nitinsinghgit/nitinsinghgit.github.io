@@ -156,9 +156,9 @@ scaler.load_state_dict(checkpoint['scaler'])
 
 ## Integration with Distributed Training
 
-Mixed precision training delivers **1.5–3× faster training** and **~50% memory savings** with 
-minimal code changes. For large-scale vision and NLP models, it's often the difference between 
-fitting on a single GPU and needing model parallelism.  
+Mixed precision training delivers **1.5–3× faster training** and **~50% memory savings** with
+minimal code changes. For large-scale vision and NLP models, it's often the difference between
+fitting on a single GPU and needing model parallelism.
 
-If you're not already using `torch.cuda.amp`, you're leaving performance on the table. 
+If you're not already using `torch.cuda.amp`, you're leaving performance on the table.
 Try enabling it in your next training run and benchmark the speedup.

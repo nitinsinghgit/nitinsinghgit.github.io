@@ -244,10 +244,10 @@ Monitor these metrics when using gradient checkpointing:
 
 ## Conclusion
 
-Gradient checkpointing is a powerful technique that enables training of much larger models 
-on limited hardware by trading computation for memory. While it increases training time by 
+Gradient checkpointing is a powerful technique that enables training of much larger models
+on limited hardware by trading computation for memory. While it increases training time by
 20-50%, the memory savings of 80-90% often make it the only viable option for large models.
 
-For models that don't fit in GPU memory, gradient checkpointing should be your first 
-optimization strategy. Combined with mixed precision training, it can enable training 
+For models that don't fit in GPU memory, gradient checkpointing should be your first
+optimization strategy. Combined with mixed precision training, it can enable training
 of state-of-the-art models on consumer hardware.
