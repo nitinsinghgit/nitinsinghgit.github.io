@@ -2,19 +2,19 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: blank # the website title (if blank, full name will be used instead)
-first_name: You
-middle_name: R.
-last_name: Name
+title: Nitin Singh # the website title (if blank, full name will be used instead)
+first_name: Nitin
+middle_name: 
+last_name: Singh
 contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
+  Feel free to reach out for collaborations or discussions about machine learning and autonomous vehicles.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+  Machine Learning Engineer — AV perception, vision transformers, sensor fusion, TensorRT/INT8
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
   Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
-keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
+keywords: machine learning, computer vision, autonomous vehicles, sensor fusion, deep learning, pytorch, tensorrt # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
@@ -86,8 +86,8 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: al-folio # blog_name will be displayed in your blog page
-blog_description: a simple whitespace theme for academics
+blog_name: ML Snippets # blog_name will be displayed in your blog page
+blog_description: Big ideas, small examples
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
 
@@ -264,8 +264,8 @@ display_categories: ["external-services"] # these categories will be displayed o
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Einstein]
-  first_name: [Albert, A.]
+  last_name: [Singh]
+  first_name: [Nitin]
 
   style: apa
   locale: en

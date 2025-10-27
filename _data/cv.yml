@@ -2,96 +2,88 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
+      value: Nitin Singh
     - name: Date of Birth
-      value: 14th March 1879
+      value: 
     - name: Languages
-      value: English, German
+      value: English, Hindi
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: M.S., Computer Vision
+      institution: Carnegie Mellon University, Pittsburgh, PA
+      year: 2018-2020
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - Focus on computer vision and machine learning
+        - Research in autonomous vehicle perception
+    - title: B.Tech., Electrical Engineering
+      institution: IIT Kanpur, India
+      year: 2011-2015
       description:
-        - Description 1.
-        - Description 2.
+        - Electrical Engineering with focus on signal processing
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Senior Software Engineer
+      institution: Aurora Innovation, San Francisco, CA
+      year: 2021-Present
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Built real-time LiDAR+camera perception models for on-vehicle deployment
+        - Experience with sensor fusion, quantization, model scaling for training and evaluation
+        - Work on efficient on-device deployment using TensorRT and model quantization
+    - title: Software Engineer II
+      institution: Uber ATG, San Francisco, CA
+      year: 2020-2021
       description:
-        - Description 1.
-        - Description 2.
-
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+        - Worked on multi-sensor fusion for 3D object detection and trajectory prediction
+        - Developed perception models for autonomous vehicles
+    - title: Software Engineer
+      institution: Samsung Research, Seoul, South Korea
+      year: 2015-2018
       description:
+        - Real-time segmentation and saliency detection for Samsung camera systems
+        - Computer vision algorithm development and optimization
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
+- title: Publications
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: <a href="https://openaccess.thecvf.com/content_WACV_2020/papers/Djuric_Uncertainty-aware_Short-term_Motion_Prediction_of_Traffic_Actors_for_Autonomous_Driving_WACV_2020_paper.pdf">Uncertainty-aware Short-term Motion Prediction of Traffic Actors for Autonomous Driving</a>
+      year: 2020
+      description: WACV 2020 - Motion prediction for autonomous vehicles
+    - title: <a href="https://ieeexplore.ieee.org/document/8486588">Depth Aware Portrait Segmentation using Dual Focus Images</a>
+      year: 2018
+      description: IEEE - Portrait segmentation using dual focus images
+    - title: <a href="https://drive.google.com/file/d/1yTzcdqLG2U5UVD7UQAPZtlENjpXEyAT8/view">Saliency Prediction with Deep Multiscale Residual Network</a>
+      year: 2017
+      description: Deep learning for saliency prediction
 
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
-      items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
-      items:
-        - Max Planck Medal
-
-- title: Academic Interests
+- title: Technical Skills
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: Core ML/CV
       items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+        - Vision Transformers
+        - Sensor Fusion
+        - 3D Object Detection
+        - Trajectory Prediction
+        - Image Segmentation
+    - title: Deployment & Optimization
       items:
-        - Description 1.
-        - Description 2.
+        - TensorRT
+        - ONNX
+        - INT8 Quantization
+        - Mixed Precision Training
+        - Model Optimization
+    - title: Platforms & Languages
+      items:
+        - PyTorch
+        - CUDA
+        - C++
+        - Python
 
 - title: Other Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - <u>Hobbies:</u> Machine Learning Research, Open Source Contributions, Photography

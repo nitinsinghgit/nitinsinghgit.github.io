@@ -2,16 +2,16 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: <a href='https://aurora.tech/'>Aurora Innovation</a>. Machine Learning Engineer. Autonomous Vehicle Perception.
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>Senior Software Engineer</p>
+    <p>Aurora Innovation</p>
+    <p>Mountain View, CA</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -27,8 +27,16 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Machine learning engineer at Aurora Innovation. My work spans deep learning model design using multimodal sensors (LiDAR, camera, radar) for accurate and robust perception in safety-critical environments.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+I also work on efficient on-device deployment using model quantization and deep learning accelerators like TensorRT.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+**Strengths:** Model design, optimization and scaling for training and evaluation.
+
+**Domains:** 3D object detection, trajectory prediction, image segmentation.
+
+**Core Skills:** Vision Transformers, Sensor Fusion, 3D Object Detection, Trajectory Prediction
+
+**Deployment:** TensorRT, ONNX, INT8 Quantization, Mixed Precision
+
+**Platforms:** PyTorch, CUDA, C++, Python
