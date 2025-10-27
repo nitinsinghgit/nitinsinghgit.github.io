@@ -80,7 +80,7 @@ class CheckpointedModel(nn.Module):
         self.fc2 = nn.Linear(512, 256)
         self.fc3 = nn.Linear(256, 128)
         self.fc4 = nn.Linear(128, 10)
-    
+
     def forward(self, x):
         # Apply gradient checkpointing to expensive layers
         h1 = checkpoint(torch.relu, self.fc1(x))
@@ -109,7 +109,7 @@ class CustomCheckpointModel(nn.Module):
         self.fc1 = nn.Linear(784, 512)
         self.fc2 = nn.Linear(512, 256)
         self.fc3 = nn.Linear(256, 10)
-    
+
     def forward(self, x):
         # Checkpoint the middle layers
         h2 = checkpoint(custom_forward, x, self.fc1, self.fc2)
@@ -154,17 +154,17 @@ class SelectiveCheckpointModel(nn.Module):
             TransformerLayer(512) for _ in range(12)
         ])
         self.classifier = nn.Linear(512, 1000)
-    
+
     def forward(self, x):
         x = self.embedding(x)
-        
+
         # Checkpoint only transformer layers (expensive)
         for i, layer in enumerate(self.transformer_layers):
             if i % 3 == 0:  # Checkpoint every 3rd layer
                 x = checkpoint(layer, x)
             else:
                 x = layer(x)
-        
+
         return self.classifier(x)
 ```
 

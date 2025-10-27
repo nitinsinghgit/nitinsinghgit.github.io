@@ -60,15 +60,15 @@ scaler = GradScaler()
 for epoch in range(num_epochs):
     for batch_idx, (data, target) in enumerate(train_loader):
         data, target = data.cuda(), target.cuda()
-        
+
         # Zero gradients
         optimizer.zero_grad()
-        
+
         # Forward pass with autocast
         with autocast():
             output = model(data)
             loss = criterion(output, target)
-        
+
         # Backward pass with gradient scaling
         scaler.scale(loss).backward()
         scaler.step(optimizer)
@@ -77,8 +77,8 @@ for epoch in range(num_epochs):
 
 ## Why Gradient Scaling?
 
-FP16 has a narrower dynamic range than FP32, which can cause gradients to underflow. 
-**Gradient scaling** multiplies the loss before backpropagation and rescales gradients afterward, preventing underflow. 
+FP16 has a narrower dynamic range than FP32, which can cause gradients to underflow.
+**Gradient scaling** multiplies the loss before backpropagation and rescales gradients afterward, preventing underflow.
 PyTorch's `GradScaler` automates this process.
 
 ### 1. Custom Autocast Context
