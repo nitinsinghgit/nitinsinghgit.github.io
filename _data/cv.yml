@@ -2,11 +2,7 @@
   type: map
   contents:
     - name: Full Name
-      value: Nitin Singh
-    - name: Date of Birth
-      value:
-    - name: Languages
-      value: English, Hindi
+      value: Nitin Kumar Singh
 
 - title: Education
   type: time_table
@@ -16,7 +12,7 @@
       year: 2018-2020
       description:
         - Focus on computer vision and machine learning
-        - Research in autonomous vehicle perception
+        - Research in actor prediction for autonomous vehicle planning
     - title: B.Tech., Electrical Engineering
       institution: IIT Kanpur, India
       year: 2011-2015
@@ -72,9 +68,7 @@
     - title: Deployment & Optimization
       items:
         - TensorRT
-        - ONNX
         - INT8 Quantization
-        - Mixed Precision Training
         - Model Optimization
     - title: Platforms & Languages
       items:
@@ -86,4 +80,4 @@
 - title: Other Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Machine Learning Research, Open Source Contributions, Novels
+    - <u>Hobbies:</u> Machine Learning Research, Open Source Contributions, Books.
