@@ -70,11 +70,11 @@ ninja.data = [{
             window.location.href = "/blog/2025/distributed-training-pytorch/";
           
         },
-      },{id: "books-the-godfather",
-          title: 'The Godfather',
+      },{id: "books-the-idea-factory-bell-labs-and-the-great-age-of-american-innovation",
+          title: 'The Idea Factory: Bell Labs and the Great Age of American Innovation',
           description: "",
           section: "Books",handler: () => {
-              window.location.href = "/books/the_godfather/";
+              window.location.href = "/books/the_idea_factory/";
             },},{id: "news-a-simple-inline-announcement",
           title: 'A simple inline announcement.',
           description: "",
