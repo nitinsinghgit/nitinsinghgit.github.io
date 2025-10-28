@@ -1,8 +1,3 @@
-- title: General Information
-  type: map
-  contents:
-    - name: Full Name
-      value: Nitin Kumar Singh
 
 - title: Education
   type: time_table
@@ -76,8 +71,3 @@
         - CUDA
         - C++
         - Python
-
-- title: Other Interests
-  type: list
-  contents:
-    - <u>Hobbies:</u> Machine Learning Research, Open Source Contributions, Books.
