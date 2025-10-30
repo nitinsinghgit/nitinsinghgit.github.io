@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: <a href='https://aurora.tech/'>Aurora Innovation</a>. Machine Learning Engineer. Autonomous Vehicle Perception.
 
