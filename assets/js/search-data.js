@@ -37,40 +37,7 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/blog/";
               },
-            },{id: "post-mixed-precision-training-in-pytorch",
-        
-          title: "Mixed Precision Training in PyTorch",
-        
-        description: "A comprehensive guide to mixed precision training in PyTorch covering torch.cuda.amp, gradient scaling, and performance optimization",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2025/mixed-precision-training/";
-          
-        },
-      },{id: "post-gradient-checkpointing-in-deep-learning",
-        
-          title: "Gradient Checkpointing in Deep Learning",
-        
-        description: "A comprehensive guide to gradient checkpointing covering memory optimization, implementation in PyTorch, and performance trade-offs",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2025/gradient-checkpointing/";
-          
-        },
-      },{id: "post-distributed-training-in-pytorch",
-        
-          title: "Distributed Training in PyTorch",
-        
-        description: "A comprehensive guide to distributed training in PyTorch covering DistributedDataParallel (DDP), DataParallel, and model parallel approaches",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2025/distributed-training-pytorch/";
-          
-        },
-      },{id: "books-the-idea-factory-bell-labs-and-the-great-age-of-american-innovation",
+            },{id: "books-the-idea-factory-bell-labs-and-the-great-age-of-american-innovation",
           title: 'The Idea Factory: Bell Labs and the Great Age of American Innovation',
           description: "",
           section: "Books",handler: () => {
