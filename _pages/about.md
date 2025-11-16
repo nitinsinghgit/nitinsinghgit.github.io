@@ -27,16 +27,15 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Machine learning engineer at Aurora Innovation. My work spans deep learning model design using multimodal sensors (LiDAR, camera, radar) for accurate and robust perception in safety-critical environments.
+Staff Machine Learning Engineer at Aurora Innovation, specializing in on-device perception with over 8 years of experience in Machine Learning, Computer Vision. 
+My current work focuses on camera and LiDAR-based 3D object detection models, with emphasis on scaling for high accuracy while leveraging quantization, TensorRT and custom CUDA kernels for optimized on-device deployment.
 
-I also work on efficient on-device deployment using model quantization and deep learning accelerators like TensorRT.
-
-**Strengths:** Model design, optimization and scaling for training and evaluation.
+**Strengths:** ML model design, optimization and on device deployment
 
 **Domains:** 3D object detection, trajectory prediction, image segmentation.
 
 **Core Skills:** Vision Transformers, Sensor Fusion, 3D Object Detection, Trajectory Prediction
 
-**Deployment:** TensorRT, ONNX, INT8 Quantization, Mixed Precision
+**Deployment:** TensorRT, ONNX, INT8 Quantization.
 
 **Platforms:** PyTorch, CUDA, C++, Python
