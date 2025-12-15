@@ -37,7 +37,18 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/blog/";
               },
-            },{id: "books-the-idea-factory-bell-labs-and-the-great-age-of-american-innovation",
+            },{id: "post-vision-language-models-bridging-vision-and-language-understanding",
+        
+          title: "Vision Language Models - Bridging Vision and Language Understanding",
+        
+        description: "An overview of Vision Language Models (VLMs), their architecture, applications, and recent advances in multimodal AI",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/vision-language-models/";
+          
+        },
+      },{id: "books-the-idea-factory-bell-labs-and-the-great-age-of-american-innovation",
           title: 'The Idea Factory: Bell Labs and the Great Age of American Innovation',
           description: "",
           section: "Books",handler: () => {
